@@ -1,0 +1,15 @@
+[build]
+command = "true"
+publish = "."
+
+[[redirects]]
+from = "http://test.curio.sh/*"
+to = "https://curio.sh/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "https://test.curio.sh/*"
+to = "https://curio.sh/:splat"
+status = 301
+force = true
