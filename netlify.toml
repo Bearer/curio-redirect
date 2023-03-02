@@ -13,3 +13,15 @@ from = "https://curio.sh/*"
 to = "https://docs.bearer.com/:splat"
 status = 301
 force = true
+
+[[redirects]]
+from = "http://docs.bearer.sh/*"
+to = "https://docs.bearer.com/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "https://docs.bearer.sh/*"
+to = "https://docs.bearer.com/:splat"
+status = 301
+force = true
